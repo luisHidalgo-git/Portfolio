@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,7 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 :root {
     --bg-color: #080808;
@@ -115,9 +115,8 @@ span {
     transition: 0.4s ease-in-out;
 }
 .home-img img:hover {
-    box-shadow: 0 0 25px var(--main-color),
-                0 0 50px var(--main-color),
-                0 0 100px var(--main-color);
+    box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color),
+        0 0 100px var(--main-color);
 }
 .home-content p {
     font-size: 1.5rem;
@@ -128,7 +127,7 @@ span {
 .social-icons a {
     display: inline-flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     width: 4.5rem;
     height: 4.5rem;
     background: transparent;
@@ -141,7 +140,7 @@ span {
 }
 .social-icons a:hover {
     color: var(--text-color);
-    transform: scale(1.3)translateY(-5px);
+    transform: scale(1.3) translateY(-5px);
     box-shadow: 0 0 25px var(--main-color);
     background-color: var(--main-color);
 }
@@ -188,7 +187,7 @@ span {
     position: relative;
 }
 .text-animation span::before {
-    content: "Web Developer";
+    content: "Desarrollador Web";
     color: var(--main-main);
     animation: words 20s infinite;
 }
@@ -210,23 +209,23 @@ span {
 @keyframes words {
     0%,
     20% {
-        content: "Frontend Designer";
+        content: "Desarrollador Frontend";
     }
     21%,
     40% {
-        content: "Web Designer";
+        content: "Diseñador Web";
     }
     41%,
     60% {
-        content: "UI / UX Designer";
+        content: "Diseñador UI/UX";
     }
     61%,
     80% {
-        content: "Web Developer";
+        content: "Desarrollador Web";
     }
     81%,
     100% {
-        content: "Software Tester";
+        content: "Programador";
     }
 }
 @keyframes typing {
@@ -250,7 +249,7 @@ span {
     60%,
     65%,
     80%,
-    85%{
+    85% {
         width: calc(100% + 8px);
     }
 }
@@ -263,7 +262,7 @@ span {
     padding: 100px 15px;
     background: var(--second-bg-color);
 }
-.education h2{
+.education h2 {
     margin-bottom: 5rem;
 }
 .timeline-items {
@@ -300,8 +299,7 @@ span {
     height: 21px;
     width: 21px;
     background-color: var(--main-color);
-    box-shadow: 0 0 25px var(--main-color),
-                0 0 50px var(--main-color);
+    box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color);
     position: absolute;
     left: calc(50% - 8px);
     border-radius: 50%;
@@ -336,7 +334,7 @@ span {
     color: white;
     font-size: 16px;
     font-weight: 300;
-    line-height:22px;
+    line-height: 22px;
 }
 ::-webkit-scrollbar {
     width: 15px;
@@ -359,7 +357,7 @@ span {
 }
 .services-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2.5rem;
 }
@@ -392,7 +390,7 @@ span {
     line-height: 2;
 }
 .service-info p {
-    font-size:  1.6rem;
+    font-size: 1.6rem;
     font-weight: 600;
     max-height: 100px;
     line-height: 1.7;
@@ -405,7 +403,7 @@ span {
 .testimonials-box {
     background-size: cover;
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
@@ -420,7 +418,7 @@ span {
 }
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
 }
 .testimonial-item {
@@ -443,7 +441,7 @@ span {
 }
 .testimonial-item:hover {
     border: 3px solid var(--main-color);
-    transform: translateY(-10px)scale(1.03);
+    transform: translateY(-10px) scale(1.03);
     box-shadow: 0 0 50px var(--main-color);
 }
 .testimonial-item h2 {
@@ -518,7 +516,7 @@ span {
     transition: 0.3s ease-in-out;
 }
 .footer .social a:hover {
-    transform: scale(1.2)translateY(-10px);
+    transform: scale(1.2) translateY(-10px);
     background-color: var(--main-color);
     color: black;
     box-shadow: 0 0 25px var(--main-color);
@@ -550,17 +548,17 @@ span {
     color: white;
 }
 
-@media(max-width:1285px) {
+@media (max-width: 1285px) {
     html {
         font-size: 55%;
     }
     .services-container {
         padding-bottom: 7rem;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         margin: 0 5rem;
     }
 }
-@media(max-width:991px) {
+@media (max-width: 991px) {
     header {
         padding: 2rem 3%;
     }
@@ -585,7 +583,7 @@ span {
         padding-bottom: 7rem;
     }
     .testimonials .wrapper {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
     .contact form {
         flex-direction: column;
@@ -594,7 +592,7 @@ span {
         padding: 2rem 3%;
     }
 }
-@media(max-width:895px) {
+@media (max-width: 895px) {
     #menu-icon {
         display: block;
     }
@@ -642,6 +640,6 @@ span {
         margin-bottom: 3rem;
     }
     .services-container {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 }
