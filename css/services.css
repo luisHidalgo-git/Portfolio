@@ -4,7 +4,7 @@
 }
 
 .services h2 {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     color: white;
 }
 
@@ -37,7 +37,7 @@
     text-align: left;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 3rem;
+    padding: 2.5rem;
 }
 
 .service-info h4 {

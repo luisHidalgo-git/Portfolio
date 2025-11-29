@@ -1,10 +1,10 @@
 .education {
-    padding: 100px 15px;
+    padding: 50px 15px;
     background: var(--second-bg-color);
 }
 
 .education h2 {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .timeline-items {
@@ -25,7 +25,7 @@
 }
 
 .timeline-item {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     width: 100%;
     position: relative;
 }
@@ -58,13 +58,13 @@
     font-size: 20px;
     font-weight: 800;
     color: white;
-    margin: 6px 0 15px;
+    margin: 6px 0 10px;
 }
 
 .timeline-content {
     background-color: rgba(139, 92, 246, 0.05);
     border: 1px solid rgba(139, 92, 246, 0.3);
-    padding: 25px 35px;
+    padding: 20px 30px;
     border-radius: 12px;
     cursor: pointer;
     transition: 0.3s ease-in-out;

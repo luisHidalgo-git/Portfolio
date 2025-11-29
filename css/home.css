@@ -4,7 +4,7 @@
     justify-content: space-between;
     gap: 5rem;
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 3rem auto 0;
 }
 
 .home-content {
@@ -32,6 +32,7 @@
 
 .home-img {
     border-radius: 50%;
+    margin-top: 3rem;
 }
 
 .home-img img {
