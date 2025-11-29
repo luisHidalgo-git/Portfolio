@@ -60,6 +60,26 @@
     opacity: 0.9;
 }
 
+.location-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.7rem 1.2rem;
+    background: rgba(139, 92, 246, 0.12);
+    border: 1px solid rgba(139, 92, 246, 0.3);
+    border-radius: 20px;
+    color: var(--main-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: fit-content;
+}
+
+.location-badge i {
+    font-size: 1.5rem;
+}
+
 .social-icons a {
     display: inline-flex;
     justify-content: center;
