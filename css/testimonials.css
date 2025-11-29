@@ -14,20 +14,6 @@
     margin-bottom: 3rem;
 }
 
-.testimonials-box img {
-    width: 12rem;
-    height: 12rem;
-    border-radius: 50%;
-    border: 2px solid var(--main-color);
-    object-fit: cover;
-}
-
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
-}
-
 .testimonial-item {
     min-height: 400px;
     max-width: 400px;
@@ -45,6 +31,25 @@
     gap: 1.2rem;
     color: white;
     transition: 0.3s ease-in-out;
+    position: relative;
+}
+
+/* Image inside project card with a visible frame */
+.testimonial-item img {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    border: 4px solid var(--main-color);
+    object-fit: cover;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+    margin-bottom: 1rem;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
 }
 
 .testimonial-item:hover {
@@ -52,6 +57,42 @@
     border-color: var(--main-color);
     transform: translateY(-8px);
 }
+
+/* Small GitHub repo button in the top-right of the card */
+.project-link {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
+    background: rgba(0,0,0,0.35);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.06);
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.project-link i { font-size: 1.4rem; }
+
+.project-link:hover {
+    transform: translateY(-3px);
+    background: rgba(139,92,246,0.12);
+    color: white;
+}
+
+/* Per-project frame colors to better match each image */
+.project-coca img { border-color: #c0392b; box-shadow: 0 8px 24px rgba(192,57,43,0.18); }
+.project-coca .project-link { border-color: rgba(192,57,43,0.25); }
+
+.project-flutter img { border-color: #0288d1; box-shadow: 0 8px 24px rgba(2,136,209,0.16); }
+.project-flutter .project-link { border-color: rgba(2,136,209,0.25); }
+
+.project-iot img { border-color: #2ecc71; box-shadow: 0 8px 24px rgba(46,204,113,0.14); }
+.project-iot .project-link { border-color: rgba(46,204,113,0.2); }
 
 .testimonial-item h2 {
     font-size: 2.2rem;
