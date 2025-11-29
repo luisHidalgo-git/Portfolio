@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --bg-color: #0a0a0a;
+    --second-bg-color: #111111;
+    --text-color: #e5e5e5;
+    --main-color: #8b5cf6;
+    --accent-color: #a78bfa;
+}
+
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 12% 10rem;
+}
+
+span {
+    color: var(--main-color);
+}
+
+.heading {
+    font-size: 5rem;
+    text-align: left;
+    margin: 3rem 0;
+    font-weight: 600;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-color);
+    width: 50px;
+}

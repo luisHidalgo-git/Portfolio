@@ -1,8 +1,10 @@
-window.addEventListener('componentsLoaded', () => {
+function initNavigation() {
     const menuIcon = document.querySelector('#menu-icon');
     const navbar = document.querySelector('.navbar');
     const sections = document.querySelectorAll('section');
     const navLinks = document.querySelectorAll('header nav a');
+
+    if (!menuIcon || !navbar) return;
 
     window.onscroll = () => {
         sections.forEach(sec => {
@@ -25,4 +27,10 @@ window.addEventListener('componentsLoaded', () => {
         menuIcon.classList.toggle('bx-x');
         navbar.classList.toggle('active');
     }
-});
+}
+
+if (document.readyState === 'loading') {
+    window.addEventListener('componentsLoaded', initNavigation);
+} else {
+    initNavigation();
+}
