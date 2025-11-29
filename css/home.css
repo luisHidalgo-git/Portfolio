@@ -166,7 +166,7 @@
 }
 
 .text-animation span::before {
-    content: "Desarrollador Web";
+    content: ".";
     color: var(--main-color);
     animation: words 20s infinite;
 }
@@ -190,20 +190,20 @@
 
 @keyframes words {
     0%, 20% {
-        content: "Desarrollador Frontend";
+        content: "Backend Developer";
     }
     21%, 40% {
-        content: "Diseñador Web";
+        content: "Data Bases";
     }
     41%, 60% {
-        content: "Diseñador UI/UX";
+        content: "Data Analysis";
     }
     61%, 80% {
-        content: "Desarrollador Web";
+        content: "Cibersecurity";
     }
-    81%, 100% {
+    /* 81%, 100% {
         content: "Programador";
-    }
+    } */
 }
 
 @keyframes typing {
