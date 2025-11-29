@@ -3,7 +3,7 @@ const components = [
     'components/home.html',
     'components/education.html',
     'components/video.html',
-    'components/services.html',
+    'components/technologies.html',
     'components/testimonials.html',
     'components/contact.html',
     'components/footer.html'

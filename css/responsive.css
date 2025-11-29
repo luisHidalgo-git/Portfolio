@@ -2,10 +2,8 @@
     html {
         font-size: 55%;
     }
-    .services-container {
-        padding-bottom: 7rem;
-        grid-template-columns: repeat(2, 1fr);
-        margin: 0 5rem;
+    .technologies-carousel {
+        padding: 2rem 0;
     }
 }
 
@@ -30,8 +28,8 @@
     .timeline-dot {
         left: 0;
     }
-    .services {
-        padding-bottom: 7rem;
+    .technologies {
+        padding-bottom: 5rem;
     }
     .testimonials .wrapper {
         grid-template-columns: repeat(1, 1fr);
@@ -91,10 +89,17 @@
     .home-img img {
         width: 56vw;
     }
-    .services h2 {
+    .technologies h2 {
         margin-bottom: 3rem;
     }
-    .services-container {
-        grid-template-columns: repeat(1, 1fr);
+    .tech-item {
+        min-width: 120px;
+        height: 120px;
+    }
+    .tech-item i {
+        font-size: 4rem;
+    }
+    .tech-item span {
+        font-size: 1.4rem;
     }
 }
