@@ -89,6 +89,13 @@
     .home-img img {
         width: 56vw;
     }
+    /* Center the profile image on small screens */
+    .home-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+    }
     .technologies h2 {
         margin-bottom: 3rem;
     }
